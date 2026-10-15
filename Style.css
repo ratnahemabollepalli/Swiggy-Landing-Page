@@ -41,9 +41,7 @@
 .nav_links{
     display: flex;
     gap: 30px;
-    
-    
-    
+        
 }
 .nav_links a{
     display: flex;
@@ -57,11 +55,10 @@
 }
 
 .link1{
-    
-   
+     
     padding: 18px;
     border: 1px solid white;
-    border-radius: 15px;
+    border-radius: 12px;
     box-sizing: border-box;
 }
 
@@ -75,4 +72,95 @@
     box-sizing: border-box;
     background-color: black;
     width: 130px;
+}
+
+
+.hero_container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 0;
+    margin-right: 0;
+    position:absolute;
+    min-height: 400px;
+    min-width: 100vw;
+}
+
+
+
+.container_img{
+margin-top: 5px;
+height: 500px;
+}
+
+
+.hero_container_input{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 0;
+    align-items: center;
+    gap: 25px;
+    position: relative;
+    top:-60px;
+}
+
+
+
+.hero_container_input p {
+    color: white;
+    font-size: 45px;
+    font-weight: 700;
+    /* width: 500px; */
+    text-align: center;
+    margin-left: 160px;
+    margin-right: 150px;
+}
+
+
+
+.hero_container_input input{
+    padding: 20px;
+    border-radius: 15px;
+    border: 0;
+    /* width: 400px; */
+}
+
+
+.hero_container_input input:first-child{
+    width: 310px;
+}
+
+
+.hero_container_input input:last-child{
+    width: 490px;
+}
+
+
+.hero_container_input input:first-child::placeholder{
+    font-size: 15px;
+    font-weight: 600;
+    color:darkgray;
+}
+
+
+.hero_container_input input:last-child::placeholder{
+    font-size: 16px;
+    font-weight: 600;
+    color:darkgray;
+}
+
+.hero_container_input i{
+    position: relative;
+    left:-375px;
+    top: 61px;
+
+}
+
+
+.input{
+    display: flex;
+    gap: 15px;
+
 }
